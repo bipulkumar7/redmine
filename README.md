@@ -1,1 +1,5 @@
-Taking Backup of redmine and Migrating it
+**Taking Backup of redmine and Migrating it**
+
+**Redmine**
+> Redmine is a free and open source, web-based project management and issue tracking tool.
+> It allows users to manage multiple projects and associated subprojects
