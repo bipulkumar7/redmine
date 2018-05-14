@@ -1,0 +1,259 @@
+    1  sudo apt-get update
+    2  sudo apt-get install openssh-server
+    3  ls
+    4  sudo apt-get update
+    5  ps -aux 
+    6  ps -aux | grep apt
+    7  sudo kill -9 4362
+    8  ps -aux | grep apt
+    9  sudo apt-get update
+   10  lsb_release -d
+   11  sudo apt-get update 
+   12  sudo apt-get upgrade 
+   13  sudo apt-get update 
+   14  sudo apt-get upgrade 
+   15  sudo apt autoremove 
+   16  lsb_release -da
+   17  sudo apt-get install openssh-server 
+   18  dpkg -l
+   19  ls -a | grep .ssh
+   20  sudo hostnamectl set-hostname initiator
+   21  sudo gedit /etc/hostname /etc/hosts
+   22  sudo nano /etc/hostname 
+   23  sudo nano /etc/hosts
+   24  sudo init 6
+   25  sudo apt-get update
+   26  ls -a
+   27  exit
+   28  ls -a | grep .ssh
+   29  cd .ssh/
+   30  ls
+   31  cat authorized_keys 
+   32  exit
+   33  cd .ssh/
+   34  ls
+   35  cd ~
+   36  exit
+   37  ls -l .ssh/
+   38  ssh bipulkumar@tiki.everett.org
+   39  sudo poweroff
+   40  ssh 'bipulkumar@tiki.everett.org'
+   41  s
+   42  ssh 'bipulkumar@tiki.everett.org'
+   43  iping 
+   44  ssh 'bipulkumar@tiki.everett.org'
+   45  sudo poweroff
+   46  ssh 'bipulkumar@tiki.everett.org'
+   47  poweroff
+   48  sudo poweroff
+   49  ssh 'bipulkumar@tiki.everett.org'
+   50  poweroff
+   51  sudo poweroff
+   52  ssh 'bipulkumar@tiki.everett.org'
+   53  sudo poweroff
+   54  ssh 'bipulkumar@tiki.everett.org'
+   55  clear
+   56  ls
+   57  ssh 'bipulkumar@tiki.everett.org'
+   58  sudo poweroff
+   59  poweroff
+   60  sudo poweroff
+   61  ssh 'bipulkumar@tiki.everett.org'
+   62  sudo poweroff
+   63  ssh 'bipulkumar@tiki.everett.org'
+   64  clear
+   65  ssh 'bipulkumar@tiki.everett.org'
+   66  poweroff
+   67  sudo poweroff
+   68  ssh 'bipulkumar@tiki.everett.org'
+   69  sudo poweroff
+   70  ls
+   71  exit
+   72  ls
+   73  scp bipulkumar@rm0.ntfo.org:/home/localhost/u0/bipulkumar/redminedb.psql ~/
+   74  scp -p8822 bipulkumar@rm0.ntfo.org:/home/localhost/u0/bipulkumar/redminedb.psql ~/
+   75  scp -P8822 bipulkumar@rm0.ntfo.org:/home/localhost/u0/bipulkumar/redminedb.psql ~/
+   76  history 
+   77  ls
+   78  exit
+   79  mysql -u root -p
+   80  sudo apt-get update
+   81  sudo ps -aux | grep apt
+   82  sudo kill -9 972
+   83  sudo ps -aux | grep apt
+   84  sudo apt-get update
+   85  sudo apt-get install postgresql postgresql-contrib
+   86  sudo -i -u postgres
+   87  ls
+   88  vi converter.py
+   89  nano converter.py
+   90  ls
+   91  chmod +x converter.py 
+   92  ./converter.py backupPgsql.pgsql Backup.psql
+   93  ls
+   94  ls -l Backup.psql 
+   95  sudo -i -u postgres
+   96  ssh 'bipulkumar@tiki.everett.org'
+   97  history 
+   98  sudo -i -u postgres
+   99  ssh 'bipulkumar@tiki.everett.org'
+  100  sudo poweroff
+  101  ssh 'bipulkumar@tiki.everett.org'
+  102  \dt
+  103  sudo poweroff
+  104  ssh 'bipulkumar@tiki.everett.org'
+  105  xit
+  106  ssh 'bipulkumar@tiki.everett.org'
+  107  sudo poweroff
+  108  ssh 'bipulkumar@tiki.everett.org'
+  109  sudo poweroff
+  110  ssh 'bipulkumar@tiki.everett.org'
+  111  sudo poweroff
+  112  ssh 'bipulkumar@tiki.everett.org'
+  113  sudo poweroff
+  114  ssh 'bipulkumar@tiki.everett.org'
+  115  sudo poweroff
+  116  ssh 'bipulkumar@tiki.everett.org'
+  117  sudo apt-get install update
+  118  sudo apt-get update
+  119  sudo apt-get install curl
+  120  clear
+  121  \curl -L https://get.rvm.io | bash -s stable --ruby
+  122  gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+  123  \curl -L https://get.rvm.io | bash -s stable 
+  124  \curl -L https://get.rvm.io | bash -s stable 
+  125  source /home/bipul/.rvm/scripts/rvm 
+  126  type rvm | head -n 1
+  127  rvm list known
+  128  ruby -v
+  129  rvm get stable
+  130  rvm list known
+  131  rvm install 1.9.3
+  132  ruby -v
+  133  rvm rvm 
+  134  dd
+  135  poweroff
+  136  sudo poweroff
+  137  ruby -v
+  138  gem search '^rails$' --all
+  139  gem install rails -v 4.2
+  140  gem update psych
+  141  gem install psych
+  142  gem update psych
+  143  gem install bundle
+  144  mkdir -p ~/rails_apps/redmine/
+  145  cd ~/rails_apps/redmine/
+  146  wget http://www.redmine.org/releases/redmine-3.2.9.tar.gz
+  147  ruby -v
+  148  ls
+  149  tar -zxvf redmine-3.2.9.tar.gz 
+  150  ls
+  151  mv redmine-3.2.9/* ./
+  152  ls
+  153  rm -rf redmine-3.2.9.tar.gz 
+  154  ls
+  155  cd redmine-3.2.9/
+  156  ls
+  157  cd ..
+  158  ls
+  159  bundle install --without development test rmagick
+  160  sudo apt-get install mysql-server
+  161  mysql -u root -p
+  162  sudo mysql_secure_installation 
+  163  mysql -u root -p
+  164  mysqladmin -u root -p asdert
+  165  mysqladmin -u root -p 
+  166  sudo mysql_secure_installation 
+  167  mysqladmin -u root -p 
+  168  mysql -u root -p
+  169  sudo service mysql stop 
+  170  sudo mysqld_safe --skip-grant-tables --skip-networking &
+  171* 
+  172  sudo /etc/init.d/mysql status
+  173  sudo mysqld_safe --skip-grant-tables &
+  174  ps -aux | grep mysql
+  175  mysqld_safe --skip-grant-tables &
+  176  sudo mysqld_safe --skip-grant-tables &
+  177  sudo find / -name mysqld
+  178  mkdir -p /var/run/mysqld
+  179  sudo mkdir -p /var/run/mysqld
+  180  chown mysql:mysql /var/run/mysqld
+  181  sudo chown mysql:mysql /var/run/mysqld
+  182  sudo mysqld_safe --skip-grant-tables &
+  183  sudo apt-get purge mysql-*
+  184  sudo apt-get remove mysql*
+  185  sudo apt autoremove 
+  186  sudo apt-get update
+  187  sudo find / -name mysqld
+  188  ls -l /run/mysqld/
+  189  ls -l /var/run/mysqld/
+  190  sudo apt-get update 
+  191  sudo apt-get install mysql*
+  192  sudo apt-get install mysql-server
+  193  mysql -u root -p
+  194  sudo /etc/init.d/mysql stop
+  195  sudo find / -name  "my.cnf"
+  196  sudo find / -name "my.ini"
+  197  sudo vi /etc/mysql/my.cnf
+  198  sudo nano /etc/mysql/my.cnf
+  199  sudo /etc/init.d/mysql restart
+  200  mysql -u root
+  201  sudo mysql -u root
+  202  sudo /etc/init.d/mysqld restart
+  203  sudo mysql -u root
+  204  mysql -u root
+  205  mysql -u root -p
+  206  sudo nano /etc/mysql/my.cnf
+  207  ls -l /var/log/
+  208  ls -l /var/log/mysql/error.log 
+  209  less /var/log/mysql/error.log 
+  210  sudo service mysql status
+  211  sudo /etc/init.d/mysql status
+  212  ps -aux | grep mysql
+  213  sudo /etc/init.d/mysql status
+  214  sudo /etc/init.d/mysqld status
+  215  dpkg -l | grep mysql-server
+  216  whereis mysqld
+  217  sudo service mysqld status
+  218  sudo service mysql restart
+  219  sudo service mysqld restart
+  220  sudo  /etc/init.d/mysqld restart
+  221  whereis mysqld
+  222  /usr/sbin/mysqld restart
+  223* 
+  224  sudo service mysql restart
+  225  mysqld -u root
+  226  sudo mysqld -u root
+  227  sudo nano /etc/mysql/my.cnf
+  228  sudo service mysql restart
+  229  mysql -u root -p
+  230  ls
+  231  cd rails_apps/
+  232  ls
+  233  cd redmine/
+  234  ls
+  235  cd config/
+  236  ls
+  237  mv database.yml.example database.yml
+  238  ls
+  239  nano database.yml 
+  240  bundle install --without development test rmagick
+  241  cd ..
+  242  ls
+  243  bundle install --without development test rmagick
+  244  less /home/bipul/.rvm/gems/ruby-1.9.3-p551/extensions/x86_64-linux/1.9.1/mysql2-0.4.10/mkmf.log 
+  245  gem install mysql2 -v '0.4.10
+'
+  246  dpkg -l | grep mysqlclient
+  247  apt-cache search mysqlclient 
+  248  apt-cache search mysql
+  249  apt-cache search mysql | grep developer
+  250  apt-cache search mysql | grep client
+  251  apt-cache search mysql | grep Deve
+  252  apt-cache search mysql | grep Developer
+  253  apt-cache search mysql | grep client
+  254  sudo apt-get install libmysqlclient-dev
+  255  gem install mysql2 -v '0.4.10'
+  256* 
+  257  history 
+  258  history > logFile
